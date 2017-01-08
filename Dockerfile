@@ -22,4 +22,4 @@ RUN update-ca-certificates
 RUN apk --no-cache add --repository http://dl-cdn.alpinelinux.org/alpine/v3.5/main ansible
 
 # Install composer
-RUN apk --no-cache add --repository http://dl-cdn.alpinelinux.org/alpine/edge/main composer
+RUN apk --no-cache add --repository http://dl-cdn.alpinelinux.org/alpine/edge/testing composer
