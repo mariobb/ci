@@ -18,7 +18,8 @@ RUN apk --update upgrade && \
     php-pdo \
     php-xml \
     php-ctype \
-    php-dom
+    php-dom \
+    php-apcu
 
 RUN update-ca-certificates
 
