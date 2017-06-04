@@ -16,7 +16,8 @@ RUN apk --update upgrade && \
     php-json \
     php-openssl \
     php-pdo \
-    php-xml
+    php-xml \
+    php-ctype
 
 RUN update-ca-certificates
 
